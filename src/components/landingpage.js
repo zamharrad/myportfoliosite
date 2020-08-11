@@ -1,18 +1,15 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-
+import "./css/landingPage.css";
 import Log from "../img/IMG_4570.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-// social media icons
 import {
   faFacebookSquare,
   faGitSquare,
-  faFacebook,
+  faLinkedin,
+  faTwitterSquare,
+  faFreeCodeCamp,
 } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
-import { faFreeCodeCamp } from "@fortawesome/free-brands-svg-icons";
 
 class LandingPage extends Component {
   render() {
