@@ -1,3 +1,8 @@
 .project-grid {
   display: flex;
 }
+
+.resume-right-col {
+  background: black;
+  color: aliceblue;
+}
